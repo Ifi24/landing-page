@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="header">
-        <img src="images/logo.png" alt="logo">
+        <img src="images/logo.png" alt="logo" class="logo">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About Us</a></li>
@@ -20,17 +21,17 @@
         <div class="block" id="first-block">
             <div class="container">
                 <h1>The World Studios</h1>
-                <p>The World Studios main objective is to teach and research about aircraft and their engineering.</p>
-                <button>Sign up</button>
+                <p class="subtitle">The World Studios main objective is to immerse our readers into the fascinating realm of aircraft and their engineering, tracing their evolution throughout history. </p>
+                <button class="blue">Sign up</button>
             </div>
-            <img src="images/air-quailty.jpeg" alt="sky image">
+            <img src="images/air.jpg" alt="sky image" class="sky">
         </div>
     </div>
     <div class="block" id="second-block">
         <h2>Check some of our researched airplanes</h2>
         <div class="airplanes">
             <div class="info">
-                <img src="images/Wright-flyer.jpg" alt="The Wright Flyer airplane">
+                <img src="images/Wright-flyer.jpg" alt="The Wright Flyer airplane" class="photo">
                 <p>
                     The Wright Flyer, sometimes referred to as Kitty Hawk, made the first sustained flight by a manned
                     heavier-than-air powered and controlled aircraft—an airplane—on December 17, 1903. Invented and
@@ -38,7 +39,7 @@
                 </p>
             </div>
             <div class="info">
-                <img src="images/Cessna_172S.jpg" alt="The Cessna 172 airplane">
+                <img src="images/Cessna_172S.jpg" alt="The Cessna 172 airplane" class="photo">
                 <p>
                     The Cessna 172, one of the most classic aircraft measured by its longevity and popularity, the
                     Cessna 172 is the most successful aircraft in history. Cessna delivered the first production model
@@ -47,7 +48,7 @@
                 </p>
             </div>
             <div class="info">
-                <img src="images/Concorde.jpg" alt="The Concorde airliner">
+                <img src="images/Concorde.jpg" alt="The Concorde airliner" class="photo">
                 <p>
                     The Concorde was the first supersonic airliner, introduced in 1976 and retired in 2003, its only
                     competitor was the Tupolev Tu-144, the Russian counterpart. Built by Aérospatiale (now Airbus) and
@@ -55,7 +56,7 @@
                 </p>
             </div>
             <div class="info">
-                <img src="images/Airbus-A380.jpg" alt="The Airbus A380 airliner">
+                <img src="images/Airbus-A380.jpg" alt="The Airbus A380 airliner" class="photo">
                 <p>
                     The Airbus A380 was an airliner developed and produced by Airbus. It is the world's largest
                     passenger airliner and the only airliner with a full-lenght double-deck. They were introduced in
@@ -70,14 +71,16 @@
             trackless lands in prehistoric times, looked enviously on the birds soaring freely through."
         </p>
         <p class="author">
-            Orville Wright
+            -Orville Wright
         </p>
     </div>
     <div class="block" id="fourth-block">
         <div class="modal">
-            <h3>Learn more about aircraft!</h3>
-            <p>Sign up for our monthly subscription about aircraft throghout history!</p>
-            <button>Sign Up</button>
+            <div class="extra">
+                <h3>Learn more about aircraft!</h3>
+                <p id="idk">Sign up for our monthly subscription about aircraft throghout history!</p>
+            </div>
+            <button class="white">Sign Up</button>
         </div>
     </div>
     <div class="footer">
